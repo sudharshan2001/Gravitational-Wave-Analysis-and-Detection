@@ -11,3 +11,10 @@ are sensitive to space time strain induced by passing gravitational waves but al
  
 # Approach  
  A Tukey window with 0.15 s transition regions is applied and then whitened to ensure each frequency bin has equal significance by down-weighting frequencies where the noise is loud and then the data were bandpass filtered with band pass [35, 350]. Then the data is q transformed in order to produce the image.
+
+# Note 
+Download the g2net-gravitational-wave-detection from https://www.kaggle.com/c/g2net-gravitational-wave-detection/data, extract the zip folder and place it in the same place as this file. The directory should be like this.
+
+|-->g2net-gravitational-wave-detectio---->(train\, test\, training_labels, sample_submission)
+|--->plotting_the_data.ipynb
+|--->Cleaning the data.ipynb
