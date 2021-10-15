@@ -2,3 +2,12 @@
 
 # Dataset Description
  This dataset is taken from Kaggle G2Net Gravitational Wave Detection (https://www.kaggle.com/c/g2net-gravitational-wave-detection/overview)
+ 
+ There are 560000 records in .npy format and each of them contains three samples from 3 different laboratory that spans for 2 seconds. The detectors
+are sensitive to space time strain induced by passing gravitational waves but also, they are affected by many noises such as quantum sensing noise, seismic noise etc. Our job is to clean the noise from the records and extracting important features from it.
+
+## Gravitational waves
+ Gravitational waves are 'ripples' in space-time fabric caused by some of the most violent and energetic processes in the Universe such as black holes or neutron star collisions.
+ 
+# Approach  
+ A Tukey window with 0.15 s transition regions is applied and then whitened to ensure each frequency bin has equal significance by down-weighting frequencies where the noise is loud and then the data were bandpass filtered with band pass [35, 350]. Then the data is q transformed in order to produce the image.
