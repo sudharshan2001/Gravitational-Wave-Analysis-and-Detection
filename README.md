@@ -23,6 +23,9 @@ Download the g2net-gravitational-wave-detection from https://www.kaggle.com/c/g2
 
 # Reference:
  1, https://github.com/scipy/scipy/blob/v1.7.1/scipy/cluster/vq.py#L85-L139
+ 
  2, A guide to LIGO-Virgo detector noise and extraction of transient gravitational-wave signals (https://arxiv.org/pdf/1908.11170.pdf)
+ 
  3, A tapering window for time-domain templates andsimulated signals in the detection of gravitational waves from coalescing compact binaries(https://arxiv.org/pdf/1003.2939.pdf)
+ 
  4, CONSTANT-Q TRANSFORM TOOLBOX FOR MUSIC PROCESSING (https://core.ac.uk/download/pdf/144846462.pdf)
